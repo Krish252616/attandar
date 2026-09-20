@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 import { supabase } from '../lib/supabase'
-import QRScanner from './QRScanner'
 import Timer from './Timer'
 
 export default function MemberPage({ token }) {
